@@ -1,28 +1,45 @@
-📩 Email Sender using SMTP in Python
-===================================
+📧 Email Sender using SMTP in Python
+====================================
 
-This is a simple Python project that allows you to send emails using the built-in `smtplib` and `email.message` libraries. It's great for beginners to understand how email protocols and Python networking work.
+This is a simple yet powerful Python project to send emails using the SMTP protocol. It uses Python’s built-in libraries: `smtplib` and `email.message`.
 
-📚 Features
-----------
-- Send plain text emails
-- Custom subject and message
-- Gmail SMTP integration
-- Secure login using TLS encryption
+🔗 GitHub Repository:
+https://github.com/sangitgyawali/email_sender_using_SMTP
 
-🛠 Requirements
---------------
+-----------------------
+
+🚀 Features:
+------------
+- Send plain text email
+- Works with Gmail SMTP
+- TLS encryption for secure login
+- Custom subject, sender, and message
+
+📁 Files in this Repo:
+-----------------------
+- `email_sender.py` → Main script to send email
+- `README.txt` → Project overview and instructions
+
+-----------------------
+
+🛠 Requirements:
+----------------
 - Python 3.x
 - Internet connection
 - Gmail account with:
   - 2-Factor Authentication (2FA) enabled
-  - App Password generated (for SMTP login)
+  - App Password generated for login
 
-📥 How to Run
--------------
-1. Clone or download this script.
+📌 NOTE:
+-------
+Gmail no longer supports "less secure apps". You must use **App Passwords** instead of your actual password.
 
-2. Install Python dependencies (optional):
-   - This project only uses built-in libraries.
+-----------------------
 
-3. Enable 2FA on your Gmail:
+📦 How to Run:
+--------------
+1. Clone this repository:
+
+```bash
+git clone https://github.com/sangitgyawali/email_sender_using_SMTP.git
+cd email_sender_using_SMTP
