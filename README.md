@@ -38,8 +38,9 @@ Gmail no longer supports "less secure apps". You must use **App Passwords** inst
 
 📦 How to Run:
 --------------
-1. Clone this repository:
+Clone this repository:
 
 ```bash
 git clone https://github.com/sangitgyawali/email_sender_using_SMTP.git
 cd email_sender_using_SMTP
+python email_sender.py
