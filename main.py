@@ -1,5 +1,6 @@
-import os
-import sys
+# This script sends an email using Python's smtplib module.
+# Make sure to replace the SMTP server, port, and login credentials with your own.
+
 import smtplib
 from email.message import EmailMessage
 
