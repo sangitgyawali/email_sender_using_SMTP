@@ -1,3 +1,5 @@
+import os
+import sys
 import smtplib
 from email.message import EmailMessage
 
@@ -16,5 +18,5 @@ with smtplib.SMTP(smtp_server, smtp_port) as smtp:
     smtp.starttls()  # Upgrade the connection to a secure encrypted SSL/TLS connection
     smtp.login('your_email@example.com', 'your_password')
     smtp.send_message(email)
-    
+
 print('Email sent successfully!')
